@@ -12,6 +12,13 @@
         }
     ],
   "require": {
-        "monolog/monolog": "^3.4"
+        "monolog/monolog": "^3.4",
+        "nesbot/carbon":"^2.70"
+
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
     }
 }
