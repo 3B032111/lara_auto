@@ -4,6 +4,6 @@ class Someone
 {
     function __construct($name)
     {
-        echo 'Hello '.$name.PHP_EOL;
+        echo 'Hello <br>'.$name.PHP_EOL;
     }
 }
